@@ -1,12 +1,41 @@
-# React + Vite
+README.md
+React Meme Generator
+This is a web application built with React that allows users to generate memes by fetching images from a public API. It provides a simple and interactive interface to add custom text to meme templates.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Dynamic Image Fetching: Fetches a variety of meme templates from an external API.
 
-Currently, two official plugins are available:
+Custom Text Overlays: Add top and bottom text to your chosen meme image.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Random Meme Selection: Easily cycle through different meme templates.
 
-## Expanding the ESLint configuration
+Responsive Design: The application is built to be accessible and user-friendly on various screen sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used
+React: A JavaScript library for building user interfaces.
+
+API: The application uses a public API (e.g., https://api.imgflip.com/get_memes) to get the meme templates.
+
+How to Run Locally
+Clone the repository:
+
+Bash
+
+git clone <your-repository-url>
+cd <your-repository-name>
+Install dependencies:
+
+Bash
+
+npm install
+Start the development server:
+
+Bash
+
+npm start
+This will run the app in development mode. Open http://localhost:3000 to view it in your browser.
+
+Credits
+Meme templates are provided by the (Insert API Name and Link Here) API.
+
+The project was built as part of a learning exercise in React.
